@@ -1018,14 +1018,18 @@ footer {
 }
 
 .clients {
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4.8rem;
+  /* align-items: center;
   -webkit-box-align: center;
   display: grid;
   gap: 4.8rem 4.8rem;
   grid-template-columns: auto auto;
   justify-items: center;
   margin: 4.8rem auto;
-  max-width: 1024px;
+  max-width: 1024px; */
 }
 
 .clients li {
@@ -1033,6 +1037,7 @@ footer {
   margin: 0;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  text-align: center;
 }
 
 .clients img {
